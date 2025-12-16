@@ -1,0 +1,19 @@
+patch:
+  # 原样显示输入，而不将其转换为对应的拼音，输入pnyn将显示为pnyn而不是pinyin
+  "translator/preedit_format": []
+  # 禁止自动补全长句
+  "translator/enable_word_completion": false
+  # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
+  date_translator:
+    date: riqi            # 日期： 2022-11-29
+    time: uijm            # 时间： 18:13
+    week: xyqi            # 星期： 星期二
+    datetime: riqiuijm    # ISO 8601： 2022-11-29T18:13:11+08:00
+    timestamp: uijmio  # 时间戳： 1669716794
+
+  # Lua 配置：农历的触发关键字
+  lunar: nsli  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
+  pin_cand_filter:
+    # 格式：编码<Tab>字词1<Space>字词2……
+    - d	的
+    - l 了

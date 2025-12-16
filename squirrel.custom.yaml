@@ -1,0 +1,29 @@
+patch:
+  # 横排显示候选
+  style/candidate_list_layout: linear
+  # 使用系统配色
+  style/color_scheme: native
+  style/color_scheme_dark: native
+  # 候选字号
+  style/font_point: 15
+  # 覆盖默认选项，禁止自动切换中英文(除Spotlight搜索)
+  app_options:
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.apple.Terminal:
+      no_inline: true
+    com.google.Chrome:
+      inline: true
+    com.googlecode.iterm2:
+      no_inline: true
+    com.microsoft.edgemac:
+      inline: true
+    org.gnu.Emacs:
+      no_inline: true
+    org.vim.MacVim:
+      no_inline: true
+      vim_mode: true
+    ru.keepcoder.Telegram:
+      inline: true
+    
+    
