@@ -4,6 +4,7 @@ patch:
   style/font_point: 12
   style/label_font_point: 9
   style/comment_font_point: 9
+  show_notifications: false
   preset_color_schemes/google_dark:
     name: Google Dark
     author: KawaiiZapic <kawaiizapic@zapic.moe>
