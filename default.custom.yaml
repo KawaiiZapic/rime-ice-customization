@@ -4,8 +4,9 @@ patch:
     - schema: double_pinyin
   # 8 候选词
   menu/page_size: 8 
-  # 只使用Alt+Shift+`激活菜单
+  # 只使用Shift+F4激活菜单
   switcher/hotkeys: 
-    - Alt+Shift+grave
+    - Shift+F4
   # 禁止Shift切换中英文
   ascii_composer/switch_key/Shift_L: noop
+  ascii_composer/switch_key/Control_L: commit_code

@@ -1,2 +1,3 @@
 patch:
-  style/horizontal: true
+  style/preedit_style: preview
+  style/inline_preedit: false
