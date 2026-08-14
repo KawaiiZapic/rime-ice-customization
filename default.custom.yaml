@@ -1,4 +1,5 @@
 patch:
+  punctuator/digit_separator_action: commit
   schema_list:
     # 只启用自然码双拼
     - schema: double_pinyin
